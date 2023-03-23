@@ -1,0 +1,155 @@
+body{
+    background-color: snow;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+h1{
+    text-align: left;
+    font-color: black;
+    font-weight: bold;
+    font-family: courier new;
+    font-size: 2em;
+    padding: 0;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+.title{
+    display: inline-block;
+    font-weight: normal;
+}
+
+h2{
+    text-align: left;
+    font-color: black;
+    font-family: courier new;
+    font-size: 1em;
+    padding: 0;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    margin-right: 30%;
+}
+
+nav{
+    display: inline-block;
+    padding-left: 3vw;
+}
+
+ul{
+    padding: 0;
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+}
+
+li{
+    display: inline;
+    text-align: left;
+    font-color: black;
+    font-family: courier new;
+    font-weight: normal;
+    font-size: 1em;
+    padding-left: 0;
+    padding-right: 1.5vw;
+}
+
+img{
+    height: auto;
+    width: 70%;
+    padding: 0;
+    margin: 0;
+}
+
+.cover-img{
+    height: auto;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.show-link{
+    text-decoration: underline;
+}
+
+a:hover{
+    font-weight: bold;
+}
+
+table, th, td {
+    text-align: center;
+    font-color: black;
+    font-family: courier new;
+    font-weight: normal;
+    font-size: 1em;
+    border: 2px solid black;
+    width: 20%;
+    border-collapse: collapse;
+    padding: 1.5vw;
+    margin: 0;
+}
+
+th{
+    font-weight: bold;
+}
+
+caption{
+    padding: 1vw;
+}
+
+label{
+    display: inline-block;
+    font-family: courier new;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 0;
+    padding-right: 1vw;
+}
+
+#flex-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-item{
+    margin-top: 2vw;
+    margin-bottom: 0.5vw;
+    max-width: 30%;
+}
+
+.caption{
+    text-align: center;
+    font-family: courier new;
+    font-weight: normal;
+    font-size: 1em;
+    margin-top: 1vw;
+}
+
+@media only screen and (max-width: 1000px) {
+    .flex-item{
+        max-width: 50%;
+    }
+    img{
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .flex-item{
+        max-width: 100%
+    }
+    nav{
+        display: block;
+        padding-left: 0;
+    }
+    img{
+        width: 100%;
+    }
+}
