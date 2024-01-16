@@ -58,7 +58,7 @@ img{
     height: auto;
     width: 70%;
     padding: 0;
-    margin: 0;
+    margin-bottom: 2vw;
 }
 
 .cover-img{
@@ -151,8 +151,5 @@ label{
     }
     img{
         width: 100%;
-    }
-    .cover-img{
-        width: 90%;
     }
 }
