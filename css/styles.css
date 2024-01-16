@@ -126,7 +126,6 @@ label{
 
 .caption{
     text-align: center;
-    margin-right: 8vw;
     font-family: courier new;
     font-weight: normal;
     font-size: 1em;
@@ -145,6 +144,9 @@ label{
 @media only screen and (max-width: 600px) {
     .flex-item{
         max-width: 100%
+    }
+    .caption{
+        margin-right: 8vw;
     }
     nav{
         display: block;
