@@ -145,9 +145,6 @@ label{
     .flex-item{
         max-width: 100%
     }
-    .caption{
-        margin-right: 8vw;
-    }
     nav{
         display: block;
         padding-left: 0;
