@@ -120,7 +120,8 @@ label{
 
 .flex-item{
     margin-top: 2vw;
-    margin-bottom: 0.5vw;
+    margin-bottom: 2vw;
+    justify-content: space-between;
     max-width: 30%;
 }
 
