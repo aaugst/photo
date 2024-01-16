@@ -121,7 +121,6 @@ label{
 .flex-item{
     margin-top: 2vw;
     margin-bottom: 2vw;
-    justify-content: space-between;
     max-width: 30%;
 }
 
@@ -152,5 +151,8 @@ label{
     }
     img{
         width: 100%;
+    }
+    .cover-img{
+        width: 90%;
     }
 }
