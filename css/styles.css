@@ -73,6 +73,19 @@ a{
     color: black;
 }
 
+  a:link, a:visited {
+  background-color: snow;
+  color: black;
+  padding: 14px 25px;
+  border: 3px lightgrey;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: lightgrey;
+}
 .show-link{
     text-decoration: underline;
 }
